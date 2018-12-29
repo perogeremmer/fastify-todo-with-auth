@@ -1,0 +1,20 @@
+{
+  "name": "latihan-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fastify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M HUDYA RAMADHANA - Kiddy",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "dotenv": "^6.2.0",
+    "fastify": "^1.13.3",
+    "fastify-formbody": "^2.0.3",
+    "moment": "^2.23.0",
+    "mysql": "^2.16.0",
+    "sha1": "^1.1.1"
+  }
+}
