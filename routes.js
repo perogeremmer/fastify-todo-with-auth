@@ -15,11 +15,6 @@ async function routes (fastify, options) {
     fastify.post('/api/token', auth.createToken);
     fastify.post('/api/token/check', auth.checkToken);
 
-    fastify.addHook('preHandler', async (request, reply, next) => {
-        await middleware.check(request, reply);
-        next();
-    });
-
     fastify.route({
         method: 'GET',
         url: '/api/todo',
